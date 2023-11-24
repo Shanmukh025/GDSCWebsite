@@ -52,6 +52,10 @@ h2{
 }
 .blue{color:#1a75ff;font-size:20px;}
 /* .wave{z-index:-1;} */
+
+.wave{
+    margin-top: -60px;
+}
 .boxes{
     display:flex;
     flex-direction: row;
@@ -59,7 +63,6 @@ h2{
     justify-content: center;
     align-items: center;
     position:relative;
-
 }
 .box{
     height:130px;
