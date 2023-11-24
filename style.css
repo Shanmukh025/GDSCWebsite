@@ -146,15 +146,14 @@ line-height: 5em;}
     margin:40px 40px 0px 0px;
     border-radius:5px;
     box-shadow:#ccccff 5px 5px 5px;
-
     padding:20px;
     }
 footer{
     bottom:0;
-    height:auto;
+    height:77px;
     background-color:#282a36;
     color:#ffff;
-    font-size:14px;
+    font-size:16px;
     display:flex;
     flex-direction:column;
     }
