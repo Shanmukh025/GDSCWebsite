@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar {
+    width: 100%;
+    font-size: 17px;
+}
 .navlogo{
     height:20px;
     width:40px;
@@ -123,7 +132,7 @@ height:400px;
 .space{ height:100px;}
 .about{margin:100px 0px 0px 100px; max-width:600px;}
 .mentors{margin-left:0px;}
-    .ment{margin-left:100px;}
+.ment{margin-left:100px;}
 .logo2{ height:50px; width:100px;
 margin:40px;}
 .logo3{height:80px; width:80px;}
@@ -154,6 +163,7 @@ line-height: 5em;}
 footer{
     bottom:0;
     height:77px;
+    width: 100%;
     background-color:#282a36;
     color:#ffff;
     font-size:16px;
@@ -202,9 +212,10 @@ margin-left:0px;}
         margin-right: auto;
     width:80%;
 }
+nav.navbar {width: 100%;}
 .boxes{margin:auto;}
 .about{margin:45px 20px 0px 20px; padding:25px;}
-footer{margin-top:700px;}
+footer{margin-top:700px; width: 100%;}
 .navlinks{margin-right:150px; }
 .eve{display:none;}
 .hod1, .hod{margin:auto;}
@@ -222,6 +233,7 @@ flex-direction:column;}
     margin: 20px;
     padding: 20px;
 }
+
 /*
 .video{
     width:300px;
